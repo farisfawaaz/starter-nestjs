@@ -1,0 +1,14 @@
+GET http://localhost:3000/messages
+
+###
+
+POST http://localhost:3000/messages
+Content-Type: application/json
+
+{
+    "message":"Testing message creation"
+}
+
+###
+
+GET http://localhost:3000/messages/123
